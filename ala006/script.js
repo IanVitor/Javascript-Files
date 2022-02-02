@@ -12,4 +12,3 @@ function trocar(){
 
     troca.innerHTML = `${n1} + ${n2} = ${soma}`
 }
-
