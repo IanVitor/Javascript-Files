@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  margin-bottom: 30px;
+  font-size: 50px;
+  color: #101051;
+}
+
+p{
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: 600;
+  color: green;
+}
+
+button{
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover{
+  transform: scale(1.03);
+  border: 3px #101051 solid;
+}
